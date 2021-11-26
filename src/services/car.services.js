@@ -2,7 +2,7 @@ const data = require('../../local-db/data.json');
 const AWS = require('aws-sdk');
 // AWS --> IAM --> search for --> aws-elasticbeanstalk-ec2-role
 // Select that from the list
-// Click on ---> Attach policy 
+// Click on ---> Attach policy ---> AmazonDynamoDBFullAccess
 
 AWS.config.update({
     region: 'us-east-1'
